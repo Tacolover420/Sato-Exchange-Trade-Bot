@@ -1,0 +1,7 @@
+*
+!.gitignore
+!config-example.ini
+!index.js
+!LICENSE
+!package.json
+!README.md
