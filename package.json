@@ -1,20 +1,33 @@
 {
-  "name": "satotrader",
+  "private": "true",
+  "name": "sato-exchange-trade-bot",
   "version": "1.0.0",
-  "description": "SatoExchange Trading Bot",
+  "description": "Automated Trade Bot for SatoExchange",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tacolover420/Sato-Exchange-Trade-Bot.git"
+  },
   "keywords": [
-    "trading-bot",
-    "satoexchange trading bot"
+    "altcoin",
+    "automated-trading",
+    "cryptocurrency",
+    "satoexchange",
+    "satoexchange-trade-bot",
+    "trade-bot"
   ],
   "author": "BitcoinTrader",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tacolover420/Sato-Exchange-Trade-Bot/issues"
+  },
+  "homepage": "https://github.com/Tacolover420/Sato-Exchange-Trade-Bot#readme",
   "dependencies": {
-    "satoexchange-rpc-api-client": "^1.0.4",
-    "ini": " ^1.3.5"
+    "ini": "^1.3.5",
+    "satoexchange-rpc-api-client": "^1.0.4"
   }
 }
